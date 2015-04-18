@@ -1,11 +1,13 @@
 Vagrant Box with Jekyll - shell provisioner
 ===========================================
 
-How to produce box named ``jekyll-shell-v0.1.0``:
+How to produce the box named ``vagrant-jekyll-shell-v0.2.0``:
 
     vagrant up
-    vagrant package --output jekyll-shell-v0.1.0.box
+    git checkout v0.2.0
+    vagrant package --output vagrant-jekyll-shell-v0.2.0.box
+    git checkout master
 
 How to install the box in the system:
 
-    vagrant box add jekyll-shell-v0.1.0 jekyll-shell-v0.1.0.box
+    vagrant box add vagrant-jekyll-shell-v0.2.0 vagrant-jekyll-shell-v0.2.0.box
