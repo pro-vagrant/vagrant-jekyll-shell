@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Installing: nodejs, lynx, rvm, ruby and jekyll..."
+echo "Installing: nodejs, lynx, ruby and jekyll..."
 apt-get update -y >>/tmp/provision-script.log 2>&1
 apt-get install nodejs -y >>/tmp/provision-script.log 2>&1
 apt-get install lynx-cur -y >>/tmp/provision-script.log 2>&1
